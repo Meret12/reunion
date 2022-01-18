@@ -1,0 +1,26 @@
+
+li.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  border-left: 1px solid grey;
+}
+li.nav-item:last-child {
+  border-right: 1px solid grey;
+ }
+
+h1, h2  {
+  font-family: monospace;
+  text-align: center;
+}
+
+hr.hr1 {
+  margin: auto;
+  width: 2rem;
+  text-align: center;
+  height: 0.3rem;
+}
+
+hr.hr2 {
+  margin: auto;
+  width: 20rem;
+  height: 0.1rem;
+}
