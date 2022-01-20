@@ -29,3 +29,12 @@ hr.hr2 {
   background: rgb(223,223,223);
 background: linear-gradient(90deg, rgba(223,223,223,0.994817910074186) 0%, rgba(237,237,237,1) 100%, rgba(0,212,255,1) 100%);
 }
+
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.footer p {
+  margin-top: auto;
+}
