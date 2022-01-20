@@ -38,3 +38,7 @@ background: linear-gradient(90deg, rgba(223,223,223,0.994817910074186) 0%, rgba(
 .footer p {
   margin-top: auto;
 }
+
+.hidden {
+  display: none;
+}
