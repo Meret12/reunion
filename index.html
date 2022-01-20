@@ -143,30 +143,30 @@
   <div class="col-md-12 col-lg-6 bg-white shadow p-3 mb-5">
     <div class="form w-100 pb-2">
     <h4 class="text-center">Uzupelnij</h4>
-    <form class="row" action="#">
+    <form class="row" action="#" data-netlify="true" data-netlify-recaptcha="true" name="spis">
       <div class="col-lg-6 col-md-6 mb-3">
         <div class="form-floating">
-        <input type="text" placeholder="" id="inputFirstName" class="shadow form-control form-control-lg">
+        <input type="text" placeholder="" id="inputFirstName" name="imie" class="shadow form-control form-control-lg required">
         <label for="inputFirstName">Twoje imie</label>
         </div>
       </div>
       <div class="col-12 col-md-6 mb-3">
         <div class="form-floating">
-        <input type="text" placeholder="" id="inputLastName" class="shadow form-control form-control-lg">
+        <input type="text" placeholder="" id="inputLastName" name="nazwisko" class="shadow form-control form-control-lg required">
         <label for="inputLastName">Twoje nazwisko</label>
         </div>
       </div>
 
       <div class="col-lg-6 col-md-6 mb-3">
         <div class="form-floating">
-        <input type="text" placeholder="" id="inputFirstName1" class="shadow form-control form-control-lg">
+        <input type="text" placeholder="" id="inputFirstName1" name="imie2" class="shadow form-control form-control-lg">
         <label for="inputFirstName1">Imie partnera/ki*</label>
         <p class="">*Pole niewymagane</p>
         </div>
       </div>
       <div class="col-12 col-md-6 mb-3">
         <div class="form-floating">
-        <input type="text" placeholder="" id="inputLastName2" class="shadow form-control form-control-lg">
+        <input type="text" placeholder="" id="inputLastName2" name="nazwisko2" class="shadow form-control form-control-lg">
         <label for="inputLastName2">Nazwisko partnera/ki*</label>
         <p class="">*Pole niewymagane</p>
         </div>
@@ -174,35 +174,35 @@
 
       <div class="col-lg-12 mb-3">
         <div class="form-floating">
-        <input type="email" placeholder="" id="inputEmail" class="shadow form-control form-control-lg">
+        <input type="email" placeholder="" id="inputEmail" name="email" class="shadow form-control form-control-lg required">
         <label for="inputEmail">Adres email</label>
         </div>
       </div>
       <div class="col-lg-12 b-3 my-3">
         <p class="lead text-center">Ktory termin Tobie pasuje?</p>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="date1">
-          <label class="form-check-label" for="date1">
+          <input class="form-check-input" type="checkbox" value="" id="date1" name="termin1">
+          <label class="form-check-labelr" for="date1">
             Pierwszy termin
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="date2">
+          <input class="form-check-input" type="checkbox" value="" id="date2" name="termin2">
           <label class="form-check-label" for="date2">
             Drugi termin
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="date3">
+          <input class="form-check-input" type="checkbox" value="" id="date3" name="termin3">
           <label class="form-check-label" for="date3">
-            Trzeci termin
+          Trzeci termin
           </label>
         </div>
       </div>
+      <div data-netlify-recaptcha="true"></div>
       <div class="text-center d-grid mt-1">
-        <button type="button" name="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+        <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
           Wyslij
-          <i class="fas fa-paper-plane"></i>
         </button>
       </div>
     </form>
